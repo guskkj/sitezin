@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(to bottom, #000, #004225); 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    text-align: center;
+    margin: 10px 250px;
+}
+
+.bioFormat{
+   width: 80%;
+}
+
+#profile-pic {
+    width: 150px; 
+    border: 3px solid #006400; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    margin-right: 20px;
+}
+
+#name {
+    font-size: 40px;
+    color: #006400;
+    margin: 0;
+}
+
+#bio {
+    font-size: 18px;
+}
+
+.nav-link-button {
+    text-decoration: none;
+    background-color: #006400;
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #006400;
+    cursor: pointer;
+    color: #ffffff; 
+    padding: 10px;
+    box-shadow: 2px;
+}
+
+.nav-link-button:hover{
+    background-color: #ffffff;
+    color: #006400;
+}
+
+#content {
+    display: inline;
+    padding: 20px;
+    margin: 0; 
+    
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.5); 
+    padding: 20px;
+    margin: 10px 250px;
+   
+}
+
+.footer{
+    margin: 10px 250px;
+}
+
+footer{
+    background-color: #000;
+}
+
+@media(max-width: 1200px){
+    .section{
+        margin: 10px;
+    }
+
+    .footer{
+        margin: 30px;
+    }
+
+    #header{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    #profile-pic {
+        width: 200px; 
+        border: 3px solid #006400; 
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    }
+
+    .bioFormat{
+        width: 100%;
+     }
+}
